@@ -1,38 +1,65 @@
-.App {
+/* Header */
+.profile {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.profile p {
+  color: #a0a0a0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.profile a {
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.profile a p {
+  color: #bcbcbc;
 }
 
-.App-link {
-  color: #61dafb;
+.social_profile {
+    display: flex;
+    justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.social_profile button {
+    margin: 10px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: 0px solid;
+    font-weight: bold;
+}
+
+.social_profile button:nth-child(1) {
+    background-color: #2196F3;
+    color: #fff;
+}
+
+button i {
+    margin-right: 10px;
+}
+
+/* Content */
+
+.main {
+    margin: 30px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #0d0e11;
+    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer a {
+    text-decoration: none;
+    background-color: #474e5c;
+    padding: 0px 5px;
+    border-radius: 2px;
+}
+
+.footer i {
+    color: #0d0e11;
+    font-size: 20px;
 }
